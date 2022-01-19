@@ -1,0 +1,1 @@
+console.log('TypeScript on NodeJS!');
