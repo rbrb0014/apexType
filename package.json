@@ -4,6 +4,8 @@
   "description": "typescript",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon --exec ts-node src/Bot.ts",
+    "start": "ts-node src/Bot.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,8 +20,14 @@
   },
   "homepage": "https://github.com/rbrb0014/typescript#readme",
   "devDependencies": {
-    "@types/node": "^17.0.10",
-    "ts-node": "^10.4.0",
-    "typescript": "^4.5.4"
+    "@types/node": "^17.0.41",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "discord.js": "^13.8.0",
+    "express": "^4.18.1"
   }
 }
